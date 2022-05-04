@@ -36,13 +36,13 @@ async function __START() {
     const sock = sockConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Deff Multi Device','Safari','1.0.0'],
+        browser: ['Zrill Multi Device','Safari','1.0.0'],
         auth: state,
         version
     })
 
 store.bind(sock.ev)
-console.log(color(figlet.textSync('DEFF-MD', {
+console.log(color(figlet.textSync('ZRILL NOMERCY', {
 
 		font: 'italic',
 
@@ -58,9 +58,9 @@ console.log(color(figlet.textSync('DEFF-MD', {
 console.log(color('[ZRILL CHAN]', 'cyan'), color('Bot Online', 'yellow'))
 console.log(color('[WARNING]', 'cyan'), color(`INGFO CREATOR`, 'yellow'))
 console.log(color('Instagram :', 'cyan'), color(`@xyyznomercy`, 'yellow'))
-console.log(color('Github :', 'cyan'), color(`@zrill1602`, 'yellow'))
-console.log(color('Wangsap :', 'cyan'), color(`089501060783`, 'yellow'))
-console.log(color('\n', 'cyan'), color('\nWelcome back, Owner! Hope you are doing well~', 'yellow'))
+console.log(color('Github :', 'cyan'), color(`@ZrillXD`, 'yellow'))
+console.log(color('Wangsap :', 'cyan'), color(`085828184314`, 'yellow'))
+console.log(color('\n', 'cyan'), color('\SABAR ZRILL LGI LOADING INI', 'yellow'))
 
 sock.browserDescription = ["DEFF-MD", "Mac", "3.0.0"];
 sock.ev.on('messages.upsert', async chatUpdate => {
@@ -121,7 +121,7 @@ if (anu.action == 'add') {
                 orgnye = num
                 mbc = `Welcome To ${metadata.subject}
 
-@${orgnye.split("@")[0]} Jika ingin melihat list menu klik tombol menu dibawah
+@${orgnye.split("@")[0]} ?????????
 
 jika tombol tidak terlihat di whatsapp versi lama atau mod kalian mengetik menu untuk melihat list menu`
 let buttons = [
